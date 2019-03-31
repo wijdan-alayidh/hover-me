@@ -1,0 +1,56 @@
+body { 
+
+	background-color:#333231;
+	width: 1024px;
+	height: 684px;
+	overflow: hidden;
+  font-family: 'Poppins' , sans-serif;
+	font-weight: lighter;
+}
+
+div {
+	
+	position: fixed;
+	top: 50%;
+	left: 40%;
+	width: 320px;
+	height: 60px;
+	background: linear-gradient(to right,#57CFF2,#C762F4,#E22761,#C762F4,#57CFF2);
+	border-radius: 35px;
+	background-size: 200%;
+	
+
+	
+
+}
+
+h1  {
+	position: inherit;
+	background-color: none;
+	align-content: center;
+  margin-left: 77px;
+  margin-top: 9px;
+	color:aliceblue;
+
+}
+
+
+div:hover {
+
+	cursor: pointer;
+	animation: coloring 5s infinite ease;
+}
+
+@keyframes coloring {
+	
+	
+	0%{
+		
+			background-position: 0%;
+	}
+	
+	100% {
+	   	background-position: 200%;
+	
+	}
+}
